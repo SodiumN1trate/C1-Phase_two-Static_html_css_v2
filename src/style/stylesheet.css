@@ -43,16 +43,11 @@ header > nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
-.header-content > h1 {
-    font-size: 140px;
-}
-
-.header-content > p {
-    font-size: 40px;
-    display: flex;
-    gap: 20px;
+.header-content > h2 {
+    font-size: 32px;
 }
 
 h2  {
@@ -80,6 +75,8 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main {
@@ -138,6 +135,7 @@ footer {
     border-top: 1px solid #d2d2d2;
     padding-top: 16px;
     padding-bottom: 16px;
+    padding-left: 10px;
 }
 
 .arrow-down {
