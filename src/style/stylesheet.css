@@ -87,4 +87,13 @@ main {
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.ticket-button {
+    transition: .4s all;
+}
+
+.ticket-button:hover {
+    transform: scale(1.1);
 }
