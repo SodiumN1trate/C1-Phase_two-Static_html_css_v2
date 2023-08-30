@@ -1,0 +1,47 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item > img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    object-position: center;
+}
+
+#carouselExampleSlidesOnly::after {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.header-content {
+    position: absolute;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content > h1 {
+    font-size: 140px;
+}
+
+.header-content > p {
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+}
