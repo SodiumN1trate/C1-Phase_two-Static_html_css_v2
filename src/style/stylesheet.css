@@ -97,3 +97,18 @@ main {
 .ticket-button:hover {
     transform: scale(1.1);
 }
+
+#testimonial {
+    max-width: 450px;
+    width: 100%;
+}
+
+#testimonial > div {
+    width: 100%;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+#testimonial > div:hover {
+    transform: scale(1.1);
+}
