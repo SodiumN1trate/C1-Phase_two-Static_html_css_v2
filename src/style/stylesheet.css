@@ -128,3 +128,30 @@ main {
     max-width: 500px;
     width: 100%;
 }
+
+footer {
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    border-top: 1px solid #d2d2d2;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.arrow-down {
+    animation: hover 2s ease-in-out infinite;
+}
+
+@keyframes hover {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
